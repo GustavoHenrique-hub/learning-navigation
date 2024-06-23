@@ -23,16 +23,6 @@ function TabNavigator() {
   );
 }
 
-// function StackNavigator() {
-//   return (
-//     <Stack.Navigator>
-//       <Stack.Screen name="Home" component={Home} />
-//       <Stack.Screen name="Detail" component={Detail} />
-//       <Stack.Screen name="Profile" component={Profile} />
-//     </Stack.Navigator>
-//   );
-// }
-
 export default function App() {
 
   const [fontLoaded] = useFonts({
